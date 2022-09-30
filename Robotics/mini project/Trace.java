@@ -6,13 +6,13 @@
 
 /**
  *
- * @author Mahesh
+ * @author admin
  */
 import ch.aplu.robotsim.*;
 public class Trace {
     static{
         RobotContext.setStartPosition(429,236);
-        RobotContext.useBackground("C:/Users/Mahesh/Desktop/Robotics/sprites/yellowpath.gif");
+        RobotContext.useBackground("C:/Users/Desktop/Robotics/sprites/yellowpath.gif");
     }
     public Trace(){
         LegoRobot legoRobot=new LegoRobot();
